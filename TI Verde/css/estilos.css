@@ -1,0 +1,117 @@
+p {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+
+h2 { 
+  font-family: 'Righteous', cursive; 
+
+  margin-left: 60px;
+  color:  #4F4F4F;
+  margin-left: 60px;
+}
+
+h3{
+  font-family: 'Righteous', cursive; 
+  text-align: center; 
+  font-weight: bold;
+}
+
+img{
+  width: 900px;
+  height: 300px;
+  margin-left: 110px;
+}
+li {
+   margin-left: 15%;
+   font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  
+}
+
+li a:hover {
+  background-color: #90ee90;
+  color: white;
+}
+
+iframe{
+  margin-left: 25%; 
+  width: 50%;
+}
+
+fieldset{
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background:#cef6c3 ;
+  font-family: 'Saira Extra Condensed', sans-serif; 
+}
+
+legend{
+  font-weight: bold;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+}
+
+input{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  width: 20em;
+  color: blue;
+}
+
+textarea{
+  width: 20em;
+  height: 10em;
+}
+
+input.submit, input.reset{
+  height: 100px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  margin-top: -24px; 
+  margin-left: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #90eb76;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 8px 20px 0px 9px;
+  float: right;
+}
+
+#site{
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+#fundotab{
+  background: #cef6c3; 
+  border-radius: 40px; 
+  margin-left: 55px; 
+  margin-right: 55px;
+}

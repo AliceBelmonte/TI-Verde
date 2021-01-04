@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TI Verde</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Righteous|Saira+Extra+Condensed|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script language="javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="menu">
+		<ol>
+		  <li><a href="index.html" >Home</a></li>
+		  <li><a href="importancia.html">Importância do TI verde</a></li>
+		  <li><a href="vantagens.html">Vantagens</a></li>
+		  <li><a href="empresas.html">Empresa Verde</a></li>
+		  <li><a href="contact.html">Contato</a></li>
+		 
+		</ol>
+	</div> 
+
+	<div id="site">
+	
+	<form method="post" action="enviar.php" name="formulario">
+        <fieldset>
+                <legend>Detalhes do contato:</legend>
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="tnome" id="nome">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="temail" id="email">
+                </div>
+                <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="tsenha" id="senha">
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Comentários:</legend>
+            <div>
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="tmensagem" id="mensagem"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <input type="submit" name="btenviar" value="Enviar" onclick="return validar()">
+                <input type="reset" name="btcancelar" value="Cancelar">
+            </div>
+        </fieldset>
+    </form>
+	</div>
+</body>
+</html>
